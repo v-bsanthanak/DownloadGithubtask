@@ -6,7 +6,7 @@
 trigger: none
 resources:
   packages:
-    - package: DownloadGithubtask
+    - package: nugetpublish
       type: Nuget
       version: 1.0.0
       connection: 'DownloadGithubtask'
