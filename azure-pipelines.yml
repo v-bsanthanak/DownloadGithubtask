@@ -6,10 +6,10 @@
 trigger: none
 resources:
   packages:
-    - package: nugetpublish
+    - package: DownloadGithubtask
       type: Nuget
       version: 1.0.0
-      connection: 'DownloadGithubtask'
+      connection: 'nugetpublish'
       name: DownloadGithubtask/OctocatApp1
       trigger: true
 
