@@ -14,7 +14,7 @@ resources:
       trigger: true
 
 pool:
-  name: DESKTOP-PFKIP3P
+  name: bskpool
 
 steps:
   - task: DownloadGitHubNugetPackage@1
