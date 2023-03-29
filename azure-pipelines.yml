@@ -8,7 +8,7 @@ resources:
   packages:
     - package: DownloadGithubtask
       type: Nuget
-      version: 1.0.0
+      version: 4.0.0
       connection: 'nugetpublish'
       name: DownloadGithubtask/Gitnugettask
       trigger: true
@@ -21,6 +21,6 @@ steps:
     inputs:
       packageName: 'DownloadGithubtask/Gitnugettask'
       externalEndpoints: 35f8f78a-58c7-4652-bedf-4545049082d1
-      version: '1.0.0'
+      version: '4.0.0'
 
 
