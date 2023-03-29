@@ -19,7 +19,7 @@ pool:
 steps:
   - task: DownloadGitHubNugetPackage@1
     inputs:
-      packageName: 'DownloadGithubtask/OctocatApp1'
+      packageName: 'DownloadGithubtask/Gitnugettask'
       externalEndpoints: 35f8f78a-58c7-4652-bedf-4545049082d1
       version: '1.0.0'
 
