@@ -12,8 +12,7 @@ resources:
       connection: 'nugetpublish'
       name: DownloadGithubtask/Gitnugettask
       trigger: true
-inputs:	
-    version: 3.1.x
+
 pool:
   name: bskpool
 
