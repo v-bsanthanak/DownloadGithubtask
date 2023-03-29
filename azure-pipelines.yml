@@ -8,7 +8,7 @@ resources:
   packages:
     - package: DownloadGithubtask
       type: Nuget
-      version: 2.0.0
+      version: 3.0.0
       connection: 'nugetpublish'
       name: DownloadGithubtask/gitta
       trigger: true
@@ -21,6 +21,6 @@ steps:
     inputs:
       packageName: 'DownloadGithubtask/gitta'
       externalEndpoints: 35f8f78a-58c7-4652-bedf-4545049082d1
-      version: '2.0.0'
+      version: '3.0.0'
 
 
