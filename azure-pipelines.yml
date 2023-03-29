@@ -10,7 +10,7 @@ resources:
       type: Nuget
       version: 1.0.0
       connection: 'nugetpublish'
-      name: DownloadGithubtask/OctocatApp1
+      name: DownloadGithubtask/Gitnugettask
       trigger: true
 
 pool:
