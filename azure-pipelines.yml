@@ -14,7 +14,7 @@ resources:
       trigger: true
 
 pool:
-    vmImage: 'windows-latest'
+    name: server
 
 steps:
   - task: DownloadGitHubNugetPackage@1
