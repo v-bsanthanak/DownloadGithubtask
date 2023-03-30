@@ -8,9 +8,9 @@ resources:
   packages:
     - package: DownloadGithubtask
       type: Nuget
-      version: 3.0.0
+      version: 1.1.1
       connection: 'nugetpublish'
-      name: DownloadGithubtask/gitta
+      name: DownloadGithubtask/WinFormsApp1
       trigger: true
 
 pool:
@@ -19,8 +19,8 @@ pool:
 steps:
   - task: DownloadGitHubNugetPackage@1
     inputs:
-      packageName: 'DownloadGithubtask/gitta'
+      packageName: 'DownloadGithubtask/WinFormsApp1'
       externalEndpoints: 35f8f78a-58c7-4652-bedf-4545049082d1
-      version: '3.0.0'
+      version: '1.1.1'
 
 
