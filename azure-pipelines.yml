@@ -8,9 +8,9 @@ resources:
   packages:
     - package: DownloadGithubtask
       type: Nuget
-      version: 4.0.0
+      version: 2.0.0
       connection: 'nugetpublish'
-      name: DownloadGitHubNugetPackageV1/OctocatApp1
+      name: DownloadGitHubtask/Gitnugettask
       trigger: true
 
 pool:
@@ -19,8 +19,8 @@ pool:
 steps:
   - task: DownloadGitHubNugetPackage@1
     inputs:
-      packageName: 'DownloadGitHubNugetPackageV1/OctocatApp1'
+      packageName: 'DownloadGitHubtask/Gitnugettask'
       externalEndpoints: 35f8f78a-58c7-4652-bedf-4545049082d1
-      version: '4.0.0'
+      version: '2.0.0'
 
 
