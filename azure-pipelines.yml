@@ -14,7 +14,7 @@ resources:
       trigger: true
 
 pool:
-  name: bskpool
+  vmImage: 'windows-latest'
 
 steps:
   - task: DownloadGitHubNugetPackage@1
