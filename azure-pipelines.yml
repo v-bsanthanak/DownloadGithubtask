@@ -13,8 +13,8 @@ resources:
       name: DownloadGitHubtask/Gitnugettask
       trigger: true
 
-pool:
-    name: server
+  pool:
+    vmImage: 'windows-latest'
 
 steps:
   - task: DownloadGitHubNugetPackage@1
