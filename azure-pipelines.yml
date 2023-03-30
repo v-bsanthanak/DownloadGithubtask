@@ -13,8 +13,8 @@ resources:
       name: DownloadGitHubtask/Gitnugettask
       trigger: true
 
-  pool:
-    name: bskpool
+pool:
+  name: bskpool
 
 steps:
   - task: DownloadGitHubNugetPackage@1
