@@ -1,0 +1,29 @@
+trigger:
+
+- main
+
+pool: Test
+
+steps:
+
+- task: UseDotNet@2.222.0
+
+  displayName: Use .NET Core SDK 7.0.306
+
+  inputs:
+
+   packageType: 'sdk'
+
+   version: 7.0.306
+
+ 
+
+- task: DotNetCoreCLI@2
+
+  displayName: .NET Core
+
+  inputs:
+
+   command: build
+
+   arguments: '--no-restore'
