@@ -17,13 +17,7 @@ steps:
    version: 7.0.306
 
  
-
 - task: DotNetCoreCLI@2
-
-  displayName: .NET Core
-
   inputs:
-
-   command: build
-
-   arguments: '--no-restore'
+    command: 'build'
+    projects: '**/*.csproj'
