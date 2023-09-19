@@ -1,0 +1,10 @@
+C:\Users\v-bsanthanak\source\repos\bskDatabase\bskDatabase\bin\Debug\bskDatabase.dacpac
+C:\Users\v-bsanthanak\source\repos\bskDatabase\bskDatabase\bin\Debug\bskDatabase.dll
+C:\Users\v-bsanthanak\source\repos\bskDatabase\bskDatabase\bin\Debug\bskDatabase.pdb
+C:\Users\v-bsanthanak\source\repos\bskDatabase\bskDatabase\obj\Debug\bskDatabase.sqlproj.AssemblyReference.cache
+C:\Users\v-bsanthanak\source\repos\bskDatabase\bskDatabase\obj\Debug\bskDatabase.dll
+C:\Users\v-bsanthanak\source\repos\bskDatabase\bskDatabase\obj\Debug\bskDatabase.pdb
+C:\Users\v-bsanthanak\source\repos\bskDatabase\bskDatabase\obj\Debug\Model.xml
+C:\Users\v-bsanthanak\source\repos\bskDatabase\bskDatabase\obj\Debug\refactor.xml
+C:\Users\v-bsanthanak\source\repos\bskDatabase\bskDatabase\obj\Debug\postdeploy.sql
+C:\Users\v-bsanthanak\source\repos\bskDatabase\bskDatabase\obj\Debug\predeploy.sql
